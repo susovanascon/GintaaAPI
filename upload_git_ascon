@@ -1,0 +1,69 @@
+git status
+git checkout -b <branchName>
+git add -A
+git commit -m <"message">
+git push -u origin <branchName>
+
+cd  C:\Users\ASUS\eclipse-workspace\keyword
+git init
+git remote add origin https://github.com/dassusovan/Keyword-Data-Driven-Framework.git
+git add .
+git status
+git commit -m "initial code for keyword data driven"
+git push origin master
+
+git clone https://github.com/asconsoft/gintaa-api-test.git
+git clone --single-branch --branch feature/SumanV0.4 https://github.com/asconsoft/gintaa-api-test.git
+.................................................................................................................
+
+// https://docs.google.com/spreadsheets/d/1L68C1XSOPM3dweXNLSXU76hy0TTNZ5R1ATQ9Xxnxz0s/edit#gid=0  - row -  253
+
+.................................................................................................................
+swagger hub:-
+https://app.swaggerhub.com/apis/asconsoftech/gintaa-user_api_documentation/v1
+
+use:-ssuchandra
+pwd-Bolchinash#123
+.................................................................................................................
+
+Test Number for alpha:- 
+7070707070
+1010101010
+2020202020
+9898989898
+
+.................................................................................................................
+
+1. gintaa-users
+2. gintaa-offers
+3. gintaa-offer-review  
+4. gintaa-search
+5. gintaa-categories
+6. gintaa-qna
+7. gintaa-chat  
+8. gintaa-chat-incident-report 
+9. gintaa-deals
+10. gintaa-deals-rating
+11. gintaa-deals-view
+12. gintaa-wallet
+13. gintaa-auction 
+14. gintaa-preference
+15. gintaa-referrals 
+16. gintaa-membership
+17. gintaa-action
+.................................................................................................................
+for create CSV file in K6
+k6 run --console-output=your_CSV_File_Name.csv js_file_Name.js
+k6 run --console-output=searchSanity_01-03-2021.csv js_file_Name.js
+
+k6 run --console-output=user.csv user.js
+=if(D2=E2,"PASS","FAIL")
+1513
+
+4 hr + 1:30 + 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+x
+git push -u origin main
