@@ -1,0 +1,112 @@
+{
+	"consumer": [
+		{
+			"phNo1": "+917070707070",
+			"code": "707070"
+		},
+		{
+			"phNo2": "+919898989898",
+			"code": "989898"
+		}
+	],
+	"gintaa_baseurl": "https://alpha.api.gintaa.com",
+	"userService": {
+		"userDetail": {
+			"dob": "19-04-1990",
+			"gender": "Male",
+			"name": "Test User One"
+		},
+		"invalidUserDetail": {
+			"moreLengthName": "qwertyuiopasdfghjklzxcvbnmqwerq",
+			"blankName": "",
+			"numName": 123,
+			"symName": "@#$%%",
+			"alphaNumName": "SUBHradipta@#$%%",
+			"blankGender": "",
+			"numericGender": "12345",
+			"symbolicGender": "@##$",
+			"capGender": "FEMALE",
+			"alphaDOB": "ab-cd-efgh",
+			"symDOB": "!@-#$-^&*("
+		},
+		"validEmail": "rakeshbiswas789@yopmail.com",
+		"invalidEmail": {
+			"format": "testusergmail",
+			"existing": "testmno1234@yopmail.com"
+		},
+		"validPhone": 9999999999,
+		"invalidPhone": {
+			"alphabetic": "abcdefghi",
+			"moreLength": 88888888888,
+			"symbolic": "@#$*",
+			"alphanumeric": "abcd1234!@",
+			"lessLength": 888888,
+			"existing": 9898989898
+		},
+		"updateNAddUserAddress": {
+			"address": {
+				"numericAddLine": "1234567890",
+				"capAlphabeticAddLine": "ABCDEFGH",
+				"smallAlphabeticAddLine": "abcdefgh",
+				"alphanumericWithSpecialCharacterAddLine": "ABab12!@#4353",
+				"alphanumericAddLine": "AB1234ab",
+				"greaterZip": "1234567",
+				"lessZip": "1234",
+				"numericFlat": "1234",
+				"capAlphabeticFlat": "ABCD",
+				"smallAlphabeticFlat": "abcd",
+				"alphanumericWithSpecialCharacterFlat": "AB!@12ab",
+				"alphanumericFlat": "ABab12"
+			},
+			"area":{
+      "numericArea": "123456",
+			"capAlphabeticArea": "ABCD",
+			"smallAlphabeticArea": "abcd",
+			"alphanumericWithSpecialCharacterArea": "AB12ab/.,@",
+			"alphanumericArea": "ABab12"
+			},
+			
+			"blankAnno": "",
+			"numericAnno": "123456",
+			"capAlphabeticAnno": "ABCD",
+			"smallAlphabeticAnno": "abcd",
+			"alphanumericWithSpecialCharacterAnno": "AB12!@#ab",
+			"alphanumericAnno": "ABab12",
+			"specialCharAnno": "!@##",
+			"blankLandmark": "",
+			"numericLandmark": "123456",
+			"capAlphabeticLandmark": "ASCON",
+			"smallAlphabeticLandmark": "ascon",
+			"alphanumericWithSpecialCharacterLandmark": "ASCON123!@#as",
+			"alphanumericLandmark": "Ascon123",
+			"specialCharLandmark": "!@##",
+			"blankCity": "",
+			"numericCity": "123456",
+			"capAlphabeticCity": "KOLKATA",
+			"smallAlphabeticCity": "kolkata",
+			"alphanumericWithSpecialCharacterCity": "KolKata12!@#$%",
+			"alphanumericCity": "KolKata12",
+			"blankState": "",
+			"numericState": "123456",
+			"capAlphabeticState": "WEST BENGAL",
+			"smallAlphabeticState": "west bengal",
+			"alphanumericWithSpecialCharacterState": "bengal12!@#$%",
+			"alphanumericState": "bengal12",
+			"blankCountry": "",
+			"numericCountry": "123456",
+			"capAlphabeticCountry": "INDIA",
+			"smallAlphabeticCountry": "india",
+			"alphanumericWithSpecialCharacterCountry": "India12!@#$%",
+			"alphanumericCountry": "India12",
+			"decimalLatBet90toM90": 30.22,
+			"decimalLatBey90toM90": 95.22,
+			"decimalLngBet180toM180": -170.44,
+			"decimalLngBey180toM180": -190.44
+		}
+	},
+	"qnaService": {
+		"alphanumericQuestion": "This is an updated123 question?",
+		"numericQuestion": "12345678",
+		"symbolicQuestion": "!@#$%^&*"
+	}
+}
